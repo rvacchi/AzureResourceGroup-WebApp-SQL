@@ -1,0 +1,23 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "hostingPlanName": {
+      "value": "rodolfo-plan"
+    },
+    "administratorLogin": {
+      "value": "rodolfo"
+    },
+
+    "administratorLoginPassword": {
+      "value": "R$oares12345"
+    },
+    "databaseName": {
+      "value": "rodolfodb"
+    },
+
+    "skuName": {
+      "value": "F1"
+    }
+  }
+}
